@@ -1,49 +1,49 @@
+body {
+  padding: 15px;
+}
+
+header {
+  align-content: center;
+  text-align: center;
+}
+
 nav {
   display: flex;
   align-content: space-between;
-  text-align: center;
 }
 
 nav > div {
   flex: 1;
 }
 
-.title {
-  align-content: center;
+.links {
   text-align: center;
+  display: flex;
 }
 
-#logo {
-  margin-left: 30px;
+.links > a {
+  flex: 1;
 }
 
 .search {
   text-align: right;
 }
 
-.links {
-  text-align: center;
-  display: flex;
-  align-content: space-around;
+#logoImage {
+  display: inline;
+  max-width: 50px;
 }
 
-.links > p {
-  flex: 1;
-  margin-top: 0;
-  align-content: space-between;
+.searchbar {
+  text-align: right;
 }
 
-#myImage {
-  margin-left: 70px;
-  margin-top: 50px;
+main {
+  border-top: 1px solid black;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.tigerImage {
   max-width: 300px;
-}
-.inputForm {
-  margin-left: 70px;
-}
-
-#sky {
-  margin-left: 30px;
-  max-width: 100px;
-  max-height: 100px;
 }
