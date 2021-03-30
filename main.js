@@ -2,7 +2,7 @@ const myHeading = document.getElementById("myTitle");
 myHeading.textContent = "Coding Some Basic Javascript";
 
 function searchFunction() {
-    let result = document.getElementById("search").value;
+    const result = document.getElementById("search").value;
     console.log(result);
 }
 
