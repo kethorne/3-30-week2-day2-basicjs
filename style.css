@@ -7,6 +7,15 @@ nav > div {
   flex: 1;
 }
 
+.title {
+  align-content: center;
+  text-align: center;
+}
+
+#logo {
+  margin-left: 30px;
+}
+
 .search {
   text-align: right;
 }
@@ -24,6 +33,16 @@ nav > div {
 }
 
 #myImage {
-  margin-top: 20px;
+  margin-left: 70px;
+  margin-top: 50px;
   max-width: 300px;
+}
+.inputForm {
+  margin-left: 70px;
+}
+
+#sky {
+  margin-left: 30px;
+  max-width: 100px;
+  max-height: 100px;
 }
